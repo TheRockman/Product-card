@@ -84,7 +84,7 @@ img{
       flex: 1;
 }
 
-/*responsive query*/
+/*responsive querys*/
 @media screen and (max-width: 800px) {
   .flex {
     flex-basis: 100%;
@@ -103,5 +103,15 @@ img{
 
   .card{
     margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card2{
+    float: none;
+    margin: 0 auto;
+    top: -50%;
+    width: 75%;
+    position: relative;
   }
 }
